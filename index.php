@@ -62,12 +62,14 @@ input:focus, textarea:focus {
 }
 
 .form_style {
-    border: 2px sold;
+    background: url(https://drgalen.org/white_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 100% !important;
 }
 </style>
 
 <div class='form-parent'>
-<form class="form" action="subscribers.php" method="POST">
+<form class="form" action="https://drgalen.org/subscribers.php" method="POST">
 <div class="form_style">
 <p></p>
 Name:<br />
